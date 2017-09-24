@@ -76,3 +76,5 @@ sudo ln -sf /usr/lib/aarch64-linux-gnu/tegra/libGL.so libGL.so
 
 # Consider using all 6 cores; $ sudo nvpmodel -m 2 or $ sudo nvpmodel -m 0
 make -j4
+
+sudo make install
