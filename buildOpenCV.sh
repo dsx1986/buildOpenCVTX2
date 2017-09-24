@@ -66,6 +66,7 @@ cmake \
     -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-8.0 \
     -DCUDA_ARCH_BIN=6.2 \
     -DCUDA_ARCH_PTX="" \
+    -DWITH_LIBV4L=ON \
     -DINSTALL_C_EXAMPLES=ON \
     -DINSTALL_TESTS=ON \
     -DOPENCV_TEST_DATA_PATH=../opencv_extra/testdata \
